@@ -3,153 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RITES BUILD CO - Land Survey Services</title>
+    <meta name="description" content="RITES BUILD CO - Leading Land Surveying and Mapping Services specializing in boundary surveys, topographic mapping, and construction layout services.">
+    <meta name="keywords" content="land survey, boundary survey, topographic survey, construction layout, surveying services, surveying company">
+    <title>RITES BUILD CO - Land Surveying Experts</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f0f2f5;
+            background-color: #f4f7fc;
         }
     </style>
 </head>
 <body class="antialiased text-gray-800">
 
     <!-- Header Section -->
-    <header class="bg-white shadow-md py-4 px-6 md:px-10 flex flex-col md:flex-row justify-between items-center rounded-b-lg">
-        <div class="flex items-center space-x-3 mb-4 md:mb-0">
-            <!-- Logo from business card and flyer -->
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4ZM10 8V16L16 12L10 8Z" fill="#E53E3E"/>
+    <header class="bg-white shadow-lg py-6 px-8 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <!-- Logo (Customized Icon) -->
+            <svg class="w-10 h-10 text-red-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2l9 7-9 7-9-7 9-7z"/>
             </svg>
-            <span class="text-3xl font-bold text-red-600">rbc</span>
-            <span class="text-2xl font-semibold text-gray-900">RITES BUILD CO</span>
+            <span class="text-3xl font-bold text-red-600">RBC</span>
+            <span class="text-xl font-semibold text-gray-800">RITES BUILD CO</span>
         </div>
-        <div class="text-lg font-medium text-gray-700">
-            M. 7404003444
-        </div>
+        <!-- Contact Button -->
+        <a href="tel:+7404003444" class="bg-red-600 text-white py-2 px-6 rounded-full font-semibold">Call Us</a>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-r from-yellow-500 to-orange-500 text-white py-20 px-6 md:px-10 flex items-center justify-center min-h-[300px] rounded-lg shadow-lg mx-4 mt-8">
-        <div class="text-center z-10">
-            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-4">
-                LAND SURVEY SERVICES
-            </h1>
-            <p class="text-xl md:text-2xl font-light opacity-90">
-                Mapping And Engineering Consultants
-            </p>
-        </div>
-        <!-- Background image (placeholder, as actual image cannot be directly embedded) -->
-        <div class="absolute inset-0 bg-cover bg-center opacity-20 rounded-lg" style="background-image: url('https://placehold.co/1200x600/FFD700/FFFFFF?text=Survey+Background');"></div>
+    <section class="bg-gradient-to-r from-yellow-500 to-orange-500 text-white py-24 px-6 text-center">
+        <h1 class="text-5xl font-extrabold leading-tight mb-6">Expert Land Surveying Services</h1>
+        <p class="text-xl md:text-2xl opacity-80 mb-8">Precise Mapping and Engineering for Your Property Needs</p>
+        <a href="#services" class="bg-white text-gray-900 py-2 px-6 rounded-full text-xl font-semibold">Explore Our Services</a>
     </section>
 
-    <!-- Our Services Section -->
-    <section class="container mx-auto px-4 py-12">
-        <div class="bg-white p-8 rounded-xl shadow-lg">
-            <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">OUR SERVICES</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Service Item 1 -->
-                <div class="flex items-start space-x-4 bg-gray-50 p-6 rounded-lg shadow-sm">
-                    <svg class="w-8 h-8 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                    </svg>
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-900">Existing Boundary Survey</h3>
-                        <p class="text-gray-600 mt-1">Accurate delineation of property lines.</p>
-                    </div>
-                </div>
-                <!-- Service Item 2 -->
-                <div class="flex items-start space-x-4 bg-gray-50 p-6 rounded-lg shadow-sm">
-                    <svg class="w-8 h-8 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                    </svg>
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-900">Land Survey & Topographic Survey</h3>
-                        <p class="text-gray-600 mt-1">Detailed mapping of natural and man-made features.</p>
-                    </div>
-                </div>
-                <!-- Service Item 3 -->
-                <div class="flex items-start space-x-4 bg-gray-50 p-6 rounded-lg shadow-sm">
-                    <svg class="w-8 h-8 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                    </svg>
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-900">Construction Layout & Structure Layout</h3>
-                        <p class="text-gray-600 mt-1">Precise positioning for construction projects.</p>
-                    </div>
-                </div>
-                <!-- Service Item 4 -->
-                <div class="flex items-start space-x-4 bg-gray-50 p-6 rounded-lg shadow-sm">
-                    <svg class="w-8 h-8 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                    </svg>
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-900">Contour Survey & Levels Provided in DWG Drawing</h3>
-                        <p class="text-gray-600 mt-1">Detailed elevation data in industry-standard format.</p>
-                    </div>
-                </div>
+    <!-- Services Section -->
+    <section id="services" class="py-16 px-6">
+        <div class="container mx-auto text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-900">Our Core Services</h2>
+            <p class="text-xl text-gray-600 mt-4">Accurate, reliable, and comprehensive surveying solutions tailored to your project needs.</p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Service Item -->
+            <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                <svg class="w-12 h-12 text-green-600 mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2l9 7-9 7-9-7 9-7z"/>
+                </svg>
+                <h3 class="text-2xl font-semibold text-gray-900">Boundary Survey</h3>
+                <p class="text-gray-600 mt-4">We identify and map the exact boundaries of your property for accurate delineation and legal protection.</p>
+            </div>
+            <!-- Service Item -->
+            <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                <svg class="w-12 h-12 text-green-600 mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2l9 7-9 7-9-7 9-7z"/>
+                </svg>
+                <h3 class="text-2xl font-semibold text-gray-900">Topographic Survey</h3>
+                <p class="text-gray-600 mt-4">Detailed mapping of the natural and man-made features on the land, including elevations and contours.</p>
+            </div>
+            <!-- Service Item -->
+            <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                <svg class="w-12 h-12 text-green-600 mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2l9 7-9 7-9-7 9-7z"/>
+                </svg>
+                <h3 class="text-2xl font-semibold text-gray-900">Construction Layout</h3>
+                <p class="text-gray-600 mt-4">Precise measurement and placement for all types of construction projects, ensuring accuracy and alignment.</p>
             </div>
         </div>
     </section>
 
     <!-- Specialized Services Section -->
-    <section class="container mx-auto px-4 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- GPR Survey -->
-            <div class="bg-white p-8 rounded-xl shadow-lg">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">GPR Survey (Ground Penetration Radar)</h2>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>The sub-surface to investigate Underground utilities we can find underground pipes, power cable gas line etc. with depth and without Excavation.</li>
-                    <li>This Data provide in Autocad file</li>
-                </ul>
-                <div class="mt-6 flex justify-center">
-                    <img src="https://placehold.co/400x250/E0E0E0/333333?text=GPR+Survey" alt="GPR Survey" class="rounded-lg shadow-md">
-                </div>
+    <section class="bg-gray-100 py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-900">Specialized Surveying Services</h2>
+            <p class="text-xl text-gray-600 mt-4">Advanced surveying techniques for specific project requirements.</p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12 mt-12">
+            <!-- Specialized Service Item -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900">Total Station Survey</h3>
+                <p class="text-gray-600 mt-4">Utilizing Ground Penetration Radar (GPR) to identify and map underground utilities, providing precise depth measurements.</p>
+                <img src="images/Total_Station_Survey.jpg" alt="Total Station Survey" class="w-full rounded-lg mt-6">
             </div>
-
-            <!-- Drone Survey -->
-            <div class="bg-white p-8 rounded-xl shadow-lg">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">Drone Survey</h2>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Creating detailed maps and models of land areas for various purposes, such as property mapping, zoning, and infrastructure planning.</li>
-                </ul>
-                <div class="mt-6 flex justify-center">
-                    <img src="https://placehold.co/400x250/E0E0E0/333333?text=Drone+Survey" alt="Drone Survey" class="rounded-lg shadow-md">
-                </div>
+            <!-- Specialized Service Item -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900">DGPS Survey</h3>
+                <p class="text-gray-600 mt-4">Accurate Global Positioning System (GPS) mapping for large-scale land and infrastructure projects, with high precision.</p>
+                <img src="images/DGPS_Survey.jpg" alt="DGPS Survey" class="w-full rounded-lg mt-6">
             </div>
         </div>
     </section>
 
     <!-- Contact Us Section -->
-    <section class="bg-gray-800 text-white py-12 px-6 md:px-10 rounded-t-lg mx-4 mb-8 shadow-lg">
+    <section class="bg-gray-900 text-white py-16 px-6">
         <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold mb-6">Contact Us</h2>
-            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-                <div class="flex items-center space-x-3">
-                    <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.103 6.103l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-                    </svg>
-                    <span class="text-xl font-medium">7404003444, 9999079506</span>
-                </div>
-                <div class="flex items-center space-x-3">
-                    <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                    </svg>
-                    <span class="text-xl font-medium">ritesbuildco@gmail.com</span>
-                </div>
-            </div>
-            <p class="text-lg mt-6 text-gray-300">
-                House No-13, Ghevra, New Delhi, PIN Code: 110081
-            </p>
+            <h2 class="text-4xl font-bold">Contact Us</h2>
+            <p class="text-xl text-gray-400 mt-4 mb-8">Get in touch with our team for consultations or to request a quote.</p>
+            <a href="mailto:ritesbuildco@gmail.com" class="bg-yellow-500 text-gray-900 py-3 px-6 rounded-full text-xl font-semibold">Email Us</a>
+        </div>
+        <div class="container mx-auto text-center mt-8">
+            <p class="text-lg text-gray-400">House No-13, Ghevra, New Delhi, PIN Code: 110081</p>
+            <p class="text-lg text-gray-400 mt-2">Phone: 7404003444, 9999079506</p>
         </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="bg-gray-900 text-gray-400 py-6 text-center rounded-b-lg mx-4 mb-4">
-        <p>&copy; 2025 RITES BUILD CO. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center">
+        <p>&copy; 2025 RITES BUILD CO. All Rights Reserved.</p>
     </footer>
 
 </body>
